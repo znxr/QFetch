@@ -2,6 +2,8 @@
 
 QFetch is a native Omarchy API client for making HTTP requests from the desktop shell.
 
+![QFetch demo](DEMO.png)
+
 ## Features
 
 - GET, POST, PUT, PATCH, DELETE and HEAD
