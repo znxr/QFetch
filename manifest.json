@@ -1,0 +1,25 @@
+{
+  "schemaVersion": 1,
+  "id": "io.github.znxr.qfetch",
+  "name": "QFetch",
+  "version": "0.1.0",
+  "author": "QFetch contributors",
+  "license": "MIT",
+  "description": "A small native API client for testing HTTP requests from Omarchy.",
+  "kinds": ["panel", "bar-widget"],
+  "entryPoints": {
+    "panel": "Panel.qml",
+    "barWidget": "BarWidget.qml"
+  },
+  "panel": {
+    "displayName": "QFetch",
+    "category": "Development",
+    "keepLoaded": true
+  },
+  "barWidget": {
+    "displayName": "QFetch",
+    "category": "Development",
+    "allowMultiple": false,
+    "defaultSection": "right"
+  }
+}
